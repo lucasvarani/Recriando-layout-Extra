@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.content-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 540px;
+}
+
+.tittle {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+}
+
+.text-pink{
+  color: #EE24FF;
+}
+
+.text-purple{
+  color: #3F3D56;
+}
+
+.text-gray{
+  color: #828282;
+}
+
+.container, .footer{
+  margin: 0 auto 72px;
+}
+
+.header-img{
+   margin-bottom: 105px;
+}
+
+.footer{
+  padding-top: 15px;
+  border-top: 2px solid #ECEFF2;
+}
+
+p, .footer {
+  color: #7d7987;
+  font-size: 15px;
+  line-height: 22.152px;
+}
+
+.footer a, .footer a + a, .footer a + a + a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a + a, .footer a + a + a{
+  margin-left: 28px;
+}
+
+.wave img{
+  width: 100%;
+}
+
+.wave{
+  position: fixed;
+  bottom: -5px;
+  width: 100%;
+}
